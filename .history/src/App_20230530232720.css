@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #252525;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+  }
+
+h3 {
+  color: #999;
+  display: inline-block;
+  text-align: inherit;
+  max-width: 85%;
+}
+
+header {
+  width: 390px;
+  height: 200px;
+}
