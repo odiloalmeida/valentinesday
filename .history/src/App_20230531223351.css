@@ -19,16 +19,8 @@ p {
   max-width: 85%;
 }
 
-h1 {
-  color: rgba(255, 0, 0);
-}
-
 h5 {
-  font-size: 25px;
-}
-
-h3 {
-  color: rgba(255, 55, 55, 0.8);
+  font-size: 30px;
 }
 
 header{
@@ -39,8 +31,4 @@ header{
 iframe{
   width: 98%;
   box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.1);
-}
-
-span {
-  color: rgba(255,255,255,0.3);
 }

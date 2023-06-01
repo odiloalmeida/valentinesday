@@ -14,7 +14,7 @@ h2 {
     height: 100px;
     padding-bottom: 56.25%; /* Relação de aspecto 16:9 (ajuste conforme necessário) */
     overflow: hidden;
-    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.1);
+    animation: esfumacada 3s infinite alternate;
   }
   
   .slide-image {
@@ -39,5 +39,17 @@ h2 {
     }
     100% {
       opacity: 1;
+    }
+  }
+
+  @keyframes esfumacada {
+    0% {
+      box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.1);
+    }
+    50% {
+      box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 10px 10px rgba(255, 0, 0, 1);
     }
   }

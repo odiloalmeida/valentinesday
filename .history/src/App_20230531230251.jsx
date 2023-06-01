@@ -13,7 +13,7 @@ function App() {
       <main>
 
         <h1>Feliz dia dos namorados</h1>
-        <span>Assiste esse vídeo</span>
+        <span>Assiste o vídeo abaixo</span>
         <iframe width="360" height="360" src="https://www.youtube-nocookie.com/embed/I-I7shJc64g?autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
         </main>
