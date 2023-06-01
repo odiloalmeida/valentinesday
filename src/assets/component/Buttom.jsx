@@ -12,7 +12,7 @@ const ExemploBotao = () => {
     <div>
       {mostrarBotao && (
         <button onClick={handleClick}>
-          <span>Clique para exibir o texto</span>
+          <img src="caminho/para/a/imagem.png" alt="Descrição da Imagem" />
         </button>
       )}
       {!mostrarBotao && (
