@@ -8,9 +8,7 @@ const photos = [
   'https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/5.jpg?raw=true',
   'https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/2.jpg?raw=true',
   'https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/6.jpg?raw=true',
-  'https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/7.jpg?raw=true',
-  'https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/8.jpg?raw=true',
-  'https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/9.jpg?raw=true'
+  'https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/7.jpg?raw=true'
 
   // Adicione mais URLs de imagens conforme necessário
 ];
