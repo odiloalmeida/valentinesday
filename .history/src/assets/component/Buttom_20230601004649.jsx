@@ -12,7 +12,7 @@ const ExemploBotao = () => {
     <div>
       {mostrarBotao && (
         <button onClick={handleClick}>
-          <h4>Clica Linda</h4>
+          <p>Click Aqui</p>
           <img src="https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/buttom.png?raw=true" alt="Coração" />
         </button>
       )}

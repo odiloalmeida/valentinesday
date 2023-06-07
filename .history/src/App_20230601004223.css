@@ -31,16 +31,6 @@ h3 {
   color: rgba(255, 55, 55, 0.8);
 }
 
-h4 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  font-size: 1rem;
-  color: #fff;
-}
-
 header{
   margin:20px 0;
 }
@@ -57,32 +47,12 @@ span {
 
 
 button {
-  height: 150px;
-  width: 150px;
+  height: 30px;
+  width: 35px;
   background-color: transparent;
   border: none;
-  color: #999;
-  position: relative;
-  text-align: center;
-  animation: pulsar 2s infinite;
 }
 
 button img{
-  width: 80%;
-  height: 80%;
-  display: block;
-  margin: 0 auto;
-}
-
-
-@keyframes pulsar {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
+  width: 100%;
 }

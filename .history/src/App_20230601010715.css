@@ -37,8 +37,6 @@ h4 {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 1rem;
-  color: #fff;
 }
 
 header{
@@ -64,12 +62,12 @@ button {
   color: #999;
   position: relative;
   text-align: center;
-  animation: pulsar 2s infinite;
 }
 
 button img{
   width: 80%;
   height: 80%;
+  animation: pulsar 2s infinite;
   display: block;
   margin: 0 auto;
 }
