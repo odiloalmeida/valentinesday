@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Buttom.css';
 
 const ExemploBotao = () => {
   const [mostrarBotao, setMostrarBotao] = useState(true);
@@ -11,6 +12,7 @@ const ExemploBotao = () => {
     <div>
       {mostrarBotao && (
         <button onClick={handleClick}>
+          <h4>Clica Linda</h4>
           <img src="https://github.com/odiloalmeida/valentinesday/blob/master/src/assets/imgs/buttom.png?raw=true" alt="Coração" />
         </button>
       )}

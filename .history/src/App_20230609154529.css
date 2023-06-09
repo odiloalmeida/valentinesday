@@ -28,7 +28,7 @@ h5 {
 }
 
 h3 {
-  color: rgba(255,0,0,1);
+  color: rgba(255, 0, 0, 1);
   font-weight: bolder;
 }
 
@@ -75,6 +75,7 @@ button img{
   display: block;
   margin: 0 auto;
 }
+
 
 @keyframes pulsar {
   0% {
